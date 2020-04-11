@@ -1,0 +1,107 @@
+
+
+
+
+body{
+    position: relative;
+}
+#nav{
+    background-color: rgb(170, 223, 253);
+    border: 5px solid rgba(189, 230, 124, 0.733);
+    box-shadow: 2px grey;
+    
+}
+
+#index{
+    color: rgb(170, 223, 253);
+}
+
+a{
+    color: peru;
+}
+a:hover{
+    color:rgb(7, 57, 80);
+}
+body{
+    background-color:rgb(202, 202, 250);
+    height: 980px;
+}
+
+.navbar-toggler{
+    background-image: url(photos/background.jpg);
+    border: 2px solid orange
+}
+
+.navbar{
+    font-family: 'Acme', sans-serif;
+   color:orange;
+   text-decoration: underline ;
+   text-decoration-color: rgba(78, 193, 247, 0.596);
+   font-size: 20px; 
+}
+
+.nav-item{
+    color:orange;
+}
+.nav-item:hover{
+    color: green;
+}
+audio{
+    background-color: orange;
+    padding: 10px;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    display:inline-block;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+}
+.navbar-brand{
+   color: rgba(78, 193, 247, 0.596);;
+    text-decoration: underline ;
+    text-decoration-color: orange;
+}
+.navbar-brand:hover{
+    color: green;
+}
+.container{
+    margin-top: 20px;
+}
+.card{
+    background-color: rgba(189, 230, 124, 0.733);
+}
+
+.card-header{
+    color: lightyellow;
+    font-family: 'Acme', sans-serif;
+    font-size: 33px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+}
+.biopic{
+    padding-right: 10px;
+    float: left;
+}
+.col-8{
+    float: left;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(189, 230, 124, 0.733);
+}
+#foot{
+    text-align: center;
+}
+.btn{
+    background-color: rebeccapurple;
+}
+exampleFormControlTextarea

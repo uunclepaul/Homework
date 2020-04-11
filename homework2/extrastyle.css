@@ -1,0 +1,20 @@
+.row{
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+.sample{
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    
+    background-color: lightseagreen;
+    color: white;
+    padding-left: 63px;
+    padding-right: 65px;
+  }
+  body{
+      background-color: rgb(245, 227, 212);
+  }
+  
