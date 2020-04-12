@@ -87,7 +87,9 @@ audio{
 .col-8{
     float: left;
 }
-
+.card-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 footer {
@@ -104,4 +106,29 @@ footer {
 .btn{
     background-color: rebeccapurple;
 }
-exampleFormControlTextarea
+
+@media screen and (max-width:640px) {
+   
+   .card{
+   
+    align-content:stretch;
+    
+   }
+ .col-8{
+     width:500px;
+ }
+   .biopic{
+       align-items: center;
+       margin-left: 125px;
+       margin-bottom: 15px;
+   }
+    .card-text{
+        
+        align-content:stretch;
+      
+    } 
+   
+    h5{
+        text-align: center;
+    }
+}

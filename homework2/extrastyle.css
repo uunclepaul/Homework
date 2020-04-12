@@ -17,4 +17,24 @@
   body{
       background-color: rgb(245, 227, 212);
   }
+
+  @media screen and (max-width:640px){
+      body{
+          height: fit-content;
+      }
+      .card{
+          margin-bottom: 40px;
+      }
+     /* .sample {
+        width: 100%;
+      } */
+      .row{
+          width: max-content;
+          padding-left: 20px;
+      }
+      .footer{
+          position: static;
+      }
+    
+  }
   
